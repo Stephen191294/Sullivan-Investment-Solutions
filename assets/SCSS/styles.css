@@ -120,6 +120,7 @@ section {
   font-family: "Inter", sans-serif;
   color: #9095A0;
   font-weight: 400;
+  line-height: 30px;
 }
 .section-2 .container .border {
   display: flex;
@@ -146,5 +147,26 @@ section {
 .section-2 .container .container-1 {
   width: 720px;
   margin-top: 300px;
+  margin-left: 100px;
+}
+
+.section-3 {
+  margin-top: 100px;
+}
+.section-3 .container {
+  display: flex;
+}
+.section-3 .container h3 {
+  color: #171A1F;
+  font-weight: bold;
+  font-family: "Epilogue", sans-serif;
+}
+.section-3 .container p {
+  color: #9095A0;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+}
+.section-3 .container img {
   margin-left: 100px;
 }/*# sourceMappingURL=styles.css.map */

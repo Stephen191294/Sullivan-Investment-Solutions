@@ -88,6 +88,7 @@
       font-family: $Inter;
       color: $grey200;
       font-weight: 400;
+      line-height: 30px;
     }
     .border{
       display: flex;
@@ -121,7 +122,23 @@
 }
 
 .section-3{
+  margin-top: 100px;
   .container{
+    display: flex;
+    h3{
+      color: $black100;
+      font-weight: bold;
+      font-family: $Epilogue;
+    }
+    p{
+      color: $grey200;
+      font-weight: 400;
+      font-family: $Inter;
+      line-height: 30px;
+    }
+    img{
+      margin-left: 100px;
+    }
 
   }
 }
