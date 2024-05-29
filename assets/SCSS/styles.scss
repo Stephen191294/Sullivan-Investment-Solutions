@@ -70,5 +70,82 @@
   }
   .img{
     margin-left: 100px;
+    width: 100%;
+  }
+}
+
+
+.section-2{
+  margin-top: 100px;
+  .container{
+    display:flex;
+    h2{
+      font-weight: bold;
+      font-family: $Epilogue;
+      
+    }
+    p{
+      font-family: $Inter;
+      color: $grey200;
+      font-weight: 400;
+    }
+    .border{
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      h2{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: $Epilogue;
+        //white-space: nowrap;
+      }
+      p{
+       font-family: $Inter;
+      }
+    }
+    button{
+      background-color: $babyBlue;
+      color:$white100;
+      border-radius: 4px;
+      border:none;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 100px;
+    }
+    .container-1{
+      width: 720px;
+      margin-top: 300px;
+      margin-left: 100px;
+    }
+  }
+}
+
+.section-3{
+  .container{
+
+  }
+}
+
+.section-4{
+  .container{
+
+  }
+}
+
+.section-5{
+  .container{
+
+  }
+}
+
+.section-6{
+  .container{
+
+  }
+}
+
+footer{
+  .container{
+
   }
 }
