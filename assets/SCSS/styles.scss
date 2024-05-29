@@ -2,3 +2,25 @@
 @import "./variables";
 
 
+.navbar{
+  ul{
+    li{
+      .nav-link{
+        color: $grey100;
+        font-family: $Inter;
+        cursor: pointer;
+      }
+    }
+  }
+  .btn-1{
+    color:$babyBlue;
+    background-color: $white100;
+    border:none;
+    font-family: $Inter;
+  }
+  .btn{
+    background-color: $babyBlue;
+    color: $white100;
+    font-family: $Inter;
+  }
+}

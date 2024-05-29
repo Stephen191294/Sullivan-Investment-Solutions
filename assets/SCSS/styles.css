@@ -34,4 +34,21 @@ a {
 
 section {
   padding-top: 50px;
+}
+
+.navbar ul li .nav-link {
+  color: #565E6C;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+.navbar .btn-1 {
+  color: #00BDD6;
+  background-color: #FFFFFF;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+.navbar .btn {
+  background-color: #00BDD6;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=styles.css.map */
