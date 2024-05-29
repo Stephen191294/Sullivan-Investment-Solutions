@@ -1,0 +1,60 @@
+@import "./variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-family: $Epilogue;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 17px;
+  font-family: $Inter;
+}
+
+a {
+  text-decoration: none !important;
+  font-family: $Inter;
+}
+
+.container {
+  max-width: 100% !important;
+  padding: 0 16px !important;
+  @media screen and (min-width: 1200px) {
+    padding: 0 16px !important;
+    max-width: 1200px !important;
+  }
+}
+
+
+
+section {
+  padding-top: 50px;
+}
+
+@mixin responsive($breakpoint) {
+	@if $breakpoint==mobile {
+		@media screen and (max-width: 767px) {
+			@content;
+		}
+	}
+	@else if $breakpoint==tablet {
+		@media screen and (min-width: 768px) and (max-width: 979px) {
+			@content;
+		}
+	}
+	@else if $breakpoint==notebook {
+		@media screen and (min-width: 980px) and (max-width: 1024px) {
+			@content;
+		}
+	}
+	@else if $breakpoint==mackbook {
+		@media screen and (min-width: 1025px) and (max-width: 1280px) {
+			@content;
+		}
+	}
+}
