@@ -24,3 +24,51 @@
     font-family: $Inter;
   }
 }
+
+
+
+.section-1{
+  .container{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  h1{
+    font-family: $Epilogue;
+    font-size: 56px;
+    line-height: 78px;
+    font-weight: bold;
+  }
+  p{
+    font-family: $Inter;
+    font-weight: 400;
+    line-height: 30px;
+    color: $grey200;
+  }
+  form{
+    input{
+      background-color: #eaecef;
+            width: 269px;
+            height: 36px;
+            border-radius: 4px, 0px, 0px, 4px;
+            color: #bcc1ca;
+            font-size: 14px;
+            line-height: 22px;
+            border: none;
+            padding: 7px 129px 6px 34px;
+    }
+    .input-2{
+      background-color: $babyBlue;
+      color: #ffffff;
+      padding: 7px 23px 7px 24px;
+      width: 114px;
+      height: 36px;
+      border-radius: 0 4px 4px 0;
+      border: none;
+      position: absolute;
+    }
+  }
+  .img{
+    margin-left: 100px;
+  }
+}

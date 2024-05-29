@@ -51,4 +51,45 @@ section {
   background-color: #00BDD6;
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
+}
+
+.section-1 .container {
+  display: flex;
+  flex-direction: row;
+}
+.section-1 h1 {
+  font-family: "Epilogue", sans-serif;
+  font-size: 56px;
+  line-height: 78px;
+  font-weight: bold;
+}
+.section-1 p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #9095A0;
+}
+.section-1 form input {
+  background-color: #eaecef;
+  width: 269px;
+  height: 36px;
+  border-radius: 4px, 0px, 0px, 4px;
+  color: #bcc1ca;
+  font-size: 14px;
+  line-height: 22px;
+  border: none;
+  padding: 7px 129px 6px 34px;
+}
+.section-1 form .input-2 {
+  background-color: #00BDD6;
+  color: #ffffff;
+  padding: 7px 23px 7px 24px;
+  width: 114px;
+  height: 36px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  position: absolute;
+}
+.section-1 .img {
+  margin-left: 100px;
 }/*# sourceMappingURL=styles.css.map */
