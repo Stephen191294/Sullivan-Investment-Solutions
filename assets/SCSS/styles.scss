@@ -145,24 +145,138 @@
 
 .section-4{
   .container{
+    .carousel-item{
+      height: 32rem;
+      background-color: $skyBlue;
+      padding-top: 15%;
+      padding-left: 15%;
+      padding-right: 15%;
+      
+      h6{
+        color: $black100;
+        font-weight: bold;
+        text-align: center;
+        font-size: 20px;
+        font-family: $Epilogue;
+      }
+      p{
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
 
+      }
+      img{
+        text-align: center;
+      }
+      
+    }
+    .carousel-control-prev{
+      background-color: $skyBlue;
+      color:$grey200;
+      font-weight: bold;
+      border:none;
+    }
+    .carousel-control-next{
+      background-color: $skyBlue;
+      color:$grey200;
+      font-weight: bold;
+      border: none;
+    }
   }
 }
 
 .section-5{
   .container{
+    h5{
+      font-weight: bold;
+      color: $black100;
+      font-family: $Epilogue;
+      font-size: 56px;
+      text-align: center;
+    }
+    p{
+      font-family: $Inter;
+      color: $grey200;
+      font-weight: 400;
+      text-align: center;
+    }
 
   }
 }
 
 .section-6{
   .container{
+    display: flex;
+    .section-6-group{
+      margin-left: 100px;
+      margin-top: 350px;
+      h6{
+        font-size: 64px;
+        font-family: $Epilogue;
+        line-height: 84px;
+        font-weight: bold;
+      }
+      P{
+        font-family: $Inter;
+        font-weight: 400px;
+        white-space: nowrap;
 
+      }
+      form{
+        input{
+          background-color: #eaecef;
+                width: 269px;
+                height: 36px;
+                border-radius: 4px, 0px, 0px, 4px;
+                color: #bcc1ca;
+                font-size: 14px;
+                line-height: 22px;
+                border: none;
+                padding: 7px 129px 6px 34px;
+        }
+        .input-2{
+          background-color: $babyBlue;
+          color: #ffffff;
+          padding: 7px 23px 7px 24px;
+          width: 114px;
+          height: 36px;
+          border-radius: 0 4px 4px 0;
+          border: none;
+          position: absolute;
+        }
+    }
   }
 }
+}
+
 
 footer{
   .container{
+    margin-top: 100px;
+    .banner{
+      height: 30%;
+      width: 100%;
+      background-color: $grey300;
 
+      p{
+        color: $white100;
+        white-space: nowrap;
+        
+      }
+    }
+  }
+  .social-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .list{
+      display:flex;
+      ul{
+        list-style: none;
+        li{
+          margin-top: 10px;
+        }
+      }
+    }
   }
 }

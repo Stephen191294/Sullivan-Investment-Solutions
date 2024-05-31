@@ -169,4 +169,119 @@ section {
 }
 .section-3 .container img {
   margin-left: 100px;
+}
+
+.section-4 .container .carousel-item {
+  height: 32rem;
+  background-color: #EBFDFF;
+  padding-top: 15%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.section-4 .container .carousel-item h6 {
+  color: #171A1F;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Epilogue", sans-serif;
+}
+.section-4 .container .carousel-item p {
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.section-4 .container .carousel-item img {
+  text-align: center;
+}
+.section-4 .container .carousel-control-prev {
+  background-color: #EBFDFF;
+  color: #9095A0;
+  font-weight: bold;
+  border: none;
+}
+.section-4 .container .carousel-control-next {
+  background-color: #EBFDFF;
+  color: #9095A0;
+  font-weight: bold;
+  border: none;
+}
+
+.section-5 .container h5 {
+  font-weight: bold;
+  color: #171A1F;
+  font-family: "Epilogue", sans-serif;
+  font-size: 56px;
+  text-align: center;
+}
+.section-5 .container p {
+  font-family: "Inter", sans-serif;
+  color: #9095A0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-6 .container {
+  display: flex;
+}
+.section-6 .container .section-6-group {
+  margin-left: 100px;
+  margin-top: 350px;
+}
+.section-6 .container .section-6-group h6 {
+  font-size: 20px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: bold;
+}
+.section-6 .container .section-6-group P {
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  white-space: nowrap;
+}
+.section-6 .container .section-6-group form input {
+  background-color: #eaecef;
+  width: 269px;
+  height: 36px;
+  border-radius: 4px, 0px, 0px, 4px;
+  color: #bcc1ca;
+  font-size: 14px;
+  line-height: 22px;
+  border: none;
+  padding: 7px 129px 6px 34px;
+}
+.section-6 .container .section-6-group form .input-2 {
+  background-color: #00BDD6;
+  color: #ffffff;
+  padding: 7px 23px 7px 24px;
+  width: 114px;
+  height: 36px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  position: absolute;
+}
+
+footer .container {
+  margin-top: 100px;
+}
+footer .container .banner {
+  height: 30%;
+  width: 100%;
+  background-color: #424955;
+}
+footer .container .banner p {
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+footer .social-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .social-footer .list {
+  display: flex;
+}
+footer .social-footer .list ul {
+  list-style: none;
+}
+footer .social-footer .list ul li {
+  margin-top: 10px;
 }/*# sourceMappingURL=styles.css.map */
