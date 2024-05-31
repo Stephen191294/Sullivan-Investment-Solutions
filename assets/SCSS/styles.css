@@ -115,11 +115,13 @@ section {
 .section-2 .container h2 {
   font-weight: bold;
   font-family: "Epilogue", sans-serif;
+  font-size: 64px;
 }
 .section-2 .container p {
   font-family: "Inter", sans-serif;
   color: #9095A0;
   font-weight: 400;
+  font-size: 18px;
   line-height: 30px;
 }
 .section-2 .container .border {
@@ -156,6 +158,12 @@ section {
 .section-3 .container {
   display: flex;
 }
+.section-3 .container .about-us {
+  color: #171A1F;
+  font-weight: bold;
+  font-family: "Epilogue", sans-serif;
+  font-size: 64px;
+}
 .section-3 .container h3 {
   color: #171A1F;
   font-weight: bold;
@@ -169,6 +177,7 @@ section {
 }
 .section-3 .container img {
   margin-left: 100px;
+  margin-top: 250px;
 }
 
 .section-4 .container .carousel-item {
@@ -182,7 +191,7 @@ section {
   color: #171A1F;
   font-weight: bold;
   text-align: center;
-  font-size: 20px;
+  font-size: 64px;
   font-family: "Epilogue", sans-serif;
 }
 .section-4 .container .carousel-item p {
@@ -225,11 +234,12 @@ section {
 }
 .section-6 .container .section-6-group {
   margin-left: 100px;
-  margin-top: 350px;
+  margin-top: 35px;
 }
 .section-6 .container .section-6-group h6 {
-  font-size: 20px;
+  font-size: 64px;
   font-family: "Epilogue", sans-serif;
+  line-height: 84px;
   font-weight: bold;
 }
 .section-6 .container .section-6-group P {
